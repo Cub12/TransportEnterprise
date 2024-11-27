@@ -1,11 +1,11 @@
-namespace DAL;
+namespace DAL.Entities;
 
 public class Route
 {
-    public int id { get; set; }
-    public string startingPoint { get; set; }
-    public string endPoint { get; set; }
-    public float length { get; set; }
-    public IEnumerable<Driver> drivers { get; set; }
-    public IEnumerable<Vehicle> vehicles { get; set; }
+    public int Id { get; set; }
+    public string? StartingPoint { get; set; }
+    public string? EndPoint { get; set; }
+    public float Length { get; set; }
+    public IEnumerable<Driver>? Drivers { get; set; }
+    public IEnumerable<Vehicle>? Vehicles { get; set; }
 }

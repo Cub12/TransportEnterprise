@@ -1,7 +1,7 @@
-namespace DAL;
+namespace DAL.Entities;
 
 public class Dispatcher
 {
-    public int id { get; set; }
-    public string fullName { get; set; }
+    public int Id { get; set; }
+    public string? FullName { get; set; }
 }

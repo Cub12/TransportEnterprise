@@ -1,9 +1,9 @@
-namespace DAL;
+namespace DAL.Entities;
 
 public class Driver
 {
-    public int id { get; set; }
-    public string fullName { get; set; }
-    public string cardNumber { get; set; }
-    public DateTime birthDate { get; set; }
+    public int Id { get; set; }
+    public string? FullName { get; set; }
+    public string? CardNumber { get; set; }
+    public DateTime BirthDate { get; set; }
 }

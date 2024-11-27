@@ -1,10 +1,10 @@
-namespace DAL;
+namespace DAL.Entities;
 
 public class Vehicle
 {
-    public int id { get; set; }
-    public string licensePlate { get; set; }
-    public string model { get; set; }
-    public int productionYear { get; set; }
-    public string type { get; set; }
+    public int Id { get; set; }
+    public string? LicensePlate { get; set; }
+    public string? Model { get; set; }
+    public int ProductionYear { get; set; }
+    public string? Type { get; set; }
 }
